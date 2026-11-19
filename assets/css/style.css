@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.home ul{
+    list-style: none;
+}
+
+.produit ul{
+    list-style: none;
+}
+
+.move{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+input{
+    margin: 10px;
+    width: 300px;
+    height: 38px;
+    outline: none;
+}
+
+button{
+    color: white;
+    background-color: blue;
+    border: nonew;
+    width: 100px;
+    height: 28px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+select{
+    margin: 10px;
+    width: 300px;  
+    outline: none; 
+}
+
+.btn-new{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex2{
+    display: flex;
+    position: relative;
+    top: 8px;
+    right: 42px;
+}
+
+.edit{
+    color: white;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.delete{
+    color: black;
+    background-color: red;
+    border-radius: 50px;
+    border: none;
+}
+
+.sign-in{
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.login{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+thead{
+    border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+tbody{
+    border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+td{
+    padding: 14px;
+    font-size: 16px;
+}
+
+.label_in{
+    width: 120px;
+    
+}
+
+
+
+
+
+
+
+
+
